@@ -7,7 +7,7 @@
 header{
     background-color: rgba(255, 144, 14, 0.10);
     /* width: 100%; */
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .nav-bar{
@@ -71,7 +71,7 @@ header{
 
 @media screen and (max-width: 576px) {
    /* header{
-    height: 100vh;
+    height: 110vh;
    } */
 
     .nav-bar{
@@ -93,10 +93,13 @@ header{
         font-size: 25px;
         color: #FF900E;
     }
+    .banner-text{
+        padding-bottom: 20px;
+    }
   
     .banner-img img{
         margin-top: -40px;
-        height: 50vh;
+        height: 40vh;
         
     }
 
