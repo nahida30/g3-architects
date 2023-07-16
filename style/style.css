@@ -211,7 +211,7 @@ footer{
     border-radius: 8px;
     color: #424242;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 6px;
     margin-bottom: 50px;
     margin-top: 50px;
 }
@@ -266,9 +266,12 @@ footer{
     }
     .sponsor-heading{
         color: #FF900E;
+        font-size: 30px;
+        text-align: center;
     }
     .sponsor-text{
-        width: 400px;
+        width: 300px;
+        text-align: center;
     }
     .sponsor-img{
         /* flex-direction: column; */
