@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
+
 header{
     background-color: rgba(255, 144, 14, 0.10);
     /* width: 100%; */
     height: 100vh;
 }
+/* nav starts */
 
 .nav-bar{
     width: 100%;
@@ -34,6 +36,10 @@ header{
     color: black;
     font-weight: 400;
 }
+
+/* nav ends */
+
+/* banner starts */
 .banner-container{
     padding: 30px 100px 50px 100px;
     text-align: center;
@@ -68,7 +74,62 @@ header{
     width: 100%;
     height: 55vh;
 }
+/* banner ends */
 
+main{
+    width: 70%;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+
+/* quick-list starts */
+.quick-list{
+    display: flex;
+}
+.quick-list-img{
+    width: 230px;
+}
+.image-container{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.quick-list-text{
+    margin: auto;
+    padding-left: 50px;
+}
+.quick-list-text h1{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+ .quick-list-grey{
+    color:grey;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.quick-list-description{
+    color:  #727272;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+.features{
+    color: #FF900E;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+/* quick-list ends */
+
+
+/* responsive starts */
 @media screen and (max-width:576px) {
    header{
     height: 109vh;
@@ -101,6 +162,21 @@ header{
         margin-top: -40px;
         height: 30vh;
         
+    }
+
+    .quick-list{
+        flex-direction: column;
+    }
+    .image-container{
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+    .quick-list-text{
+        padding-bottom: 40px;
+        margin-left: -70px;
+    }
+    .quick-list-description{
+        width: 300px;
     }
 
 
