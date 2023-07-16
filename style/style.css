@@ -71,7 +71,7 @@ header{
 
 @media screen and (max-width: 576px) {
    header{
-    height: 100vh;
+    height: 150vh;
    }
 
     .nav-bar{
