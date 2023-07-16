@@ -70,13 +70,13 @@ header{
 }
 
 @media screen and (max-width: 576px) {
-   header{
+   /* header{
     height: 100vh;
-   }
+   } */
 
     .nav-bar{
         flex-direction: column;
-        padding-top: 70px;
+        padding-top: 200px;
         
     }
     .nav-bar ul{
@@ -90,8 +90,10 @@ header{
         font-size: 25px;
         color: #FF900E;
     }
+  
     .banner-img img{
-        height: 50vh;
+        height: 40vh;
+        
     }
 
 
