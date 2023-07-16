@@ -70,9 +70,7 @@ header{
 }
 
 @media screen and (max-width: 576px) {
-    header{
-        height: 90vh;
-    }
+   
 
     .nav-bar{
         flex-direction: column;
