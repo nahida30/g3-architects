@@ -70,14 +70,17 @@ header{
 }
 
 @media screen and (max-width: 576px) {
-   /* header{
+   header{
     height: 100vh;
-   } */
+   }
 
     .nav-bar{
         flex-direction: column;
-        padding-top: 120px;
+        padding-top: 100px;
         
+    }
+    .logo{
+        padding-bottom: 10px;
     }
     .nav-bar ul{
         flex-direction: column;
