@@ -314,6 +314,7 @@ footer{
 
 /* responsive starts */
 @media screen and (max-width:576px) {
+   
     header{
         padding: 20px;
     }
@@ -349,15 +350,23 @@ footer{
         padding-bottom: 40px;
         margin-left: -70px;
     }
+    .quick-list-text h1,.quick-list-grey,.features{
+        font-size: 30px;
+    }
     .quick-list-description{
         width: 300px;
     }
     .facts-header{
+        font-size: 30px;
         margin-left: -20px;
+       
+    }
+    .feature-head{
+        font-size: 30px;
     }
     .facts-description{
         margin-left: -20px;
-        width: 400px;
+        width: 300px;
     }
     .box-container{
         flex-direction: column;
@@ -369,12 +378,13 @@ footer{
         text-align: center;
     }
     .sponsor-text{
+        margin-left: -20px;
         width: 300px;
         text-align: center;
     }
     .sponsor-img{
         /* flex-direction: column; */
-        gap: 15px;
+        gap: 10px;
     }
     .sponsor-img img{
        width: 20%;
@@ -386,8 +396,8 @@ footer{
         margin-left: -20px;
     }
     .border-left{
-        margin-top: 30px;
-        height: 120px;
+        margin-top: 10px;
+        height: 50px;
     
     }
     .feature-paragraph{
