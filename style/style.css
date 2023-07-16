@@ -89,7 +89,8 @@ header{
         color: #FF900E;
     }
     .banner-img img{
-        height: 30vh;
+        margin-top: -5px;
+        height: 20vh;
     }
 
 
