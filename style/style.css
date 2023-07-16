@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+}
+/* nav bar section styles starts */
+.logo{
+    color:  #131313;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 45px;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* nav bar section styles ends */
+
+/* banner section style starts */
+.banner-text{
+    padding: 30px 50px 100px 50px;
+}
+.banner-head{
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    width: 868px;
+    margin: auto;
+    
+}
+
+.banner-paragraph{
+    color: var(--dark-03, #727272);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 868px;
+margin: auto;
+padding-bottom: 15px;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 620px;
+}
+
+.banner-img{
+    width: 1440px;
+    height: 700px;
+    /* margin: auto; */
+    margin: -70px auto;
+}
+
+.banner-img img{
+    width: 70%;
+    height: 600px;
+    margin-left: 200px;
+
+}
+/* banner section style ends */
+
+/* responsive starts */
+@media screen and (max-width:576px) {
+
+    header{
+        width: 100%;
+        height: 100vh;
+    }
+    nav, nav ul{
+        flex-direction: column;
+        gap: 5px;
+        /* margin-right: 150px; */
+        
+    }
+    /* nav ul{
+       margin-left: 160px;
+    } */
+    /* nav ul{
+        margin-left: 50px;
+    } */
+    .banner-text{
+        padding: 30px 100px 100px 50px;
+        /* margin: auto; */
+    }
+    .banner-head{
+        text-align: center;
+        color: #FF900E;
+ 
+        font-size: 25px;  
+        width: 120%;
+        /* margin: auto;   */
+        padding-right: 10px;
+    }
+
+    .banner-paragraph{
+        font-size: 15px;
+        width: 80%;
+        /* margin: auto; */
+        text-align: center;
+        margin-right: 5px;
+
+    }
+    .banner-img img{
+        margin-top: -90px;
+        width: 20%;
+        height: 30vh;
+        margin-left: 50px;
+    }
+    
+   
+
+    
+}
