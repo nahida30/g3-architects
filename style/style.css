@@ -8,14 +8,38 @@
 header{
     background-color: rgba(255, 144, 14, 0.10);
     /* width: 100%; */
-    height: 100vh;
+    /* height: 100vh; */
+    padding: 50px 230px;
+    
 }
 /* nav starts */
-
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #131313;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+/* 
 .nav-bar{
     width: 100%;
     height: 10vh;
-    /* background-color: aqua; */
+    background-color: aqua;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -35,12 +59,41 @@ header{
     font-size: 20px;
     color: black;
     font-weight: 400;
-}
+} */
 
 /* nav ends */
 
 /* banner starts */
-.banner-container{
+.banner{
+    padding-top: 40px;
+}
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description{
+    color: #727272;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+
+
+}
+.banner-img{
+    margin-top: 10px;
+    width: 100%;
+}
+/* .banner-container{
     padding: 30px 100px 50px 100px;
     text-align: center;
 }
@@ -66,14 +119,14 @@ header{
 .banner-img{
     width: 70%;
     height: 60vh;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     margin: auto;
     margin-top: -20px;
 }
 .banner-img img{
     width: 100%;
     height: 55vh;
-}
+} */
 /* banner ends */
 
 main{
@@ -131,7 +184,24 @@ main{
 
 /* responsive starts */
 @media screen and (max-width:576px) {
-   header{
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+       text-align: center;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .banner-description{
+        padding-bottom: 10px;
+    }
+    .banner-title{
+        font-size: 2rem;
+        color: #FF900E;
+    }
+   /* header{
     height: 109vh;
    }
 
@@ -162,7 +232,7 @@ main{
         margin-top: -40px;
         height: 30vh;
         
-    }
+    } */
 
     .quick-list{
         flex-direction: column;
@@ -181,4 +251,15 @@ main{
 
 
     
+}
+
+/* tab or medium device */
+@media screen and (min-width:576px) and (max-width:960px){
+    header{
+        width: 1148px;
+    }
+    nav{
+        flex-direction: column;
+    }
+   
 }
