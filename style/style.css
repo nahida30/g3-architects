@@ -34,8 +34,45 @@ header{
     color: black;
     font-weight: 400;
 }
+.banner-container{
+    padding: 30px 100px 50px 100px;
+    text-align: center;
+}
+.banner-head{
+    font-size: 42px;
+    padding-bottom: 10px;
+}
+.banner-text{
+    font-size: 18px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+
+}
+.banner-img{
+    width: 70%;
+    height: 60vh;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: -30px;
+}
+.banner-img img{
+    width: 100%;
+    height: 60vh;
+}
 
 @media screen and (max-width: 576px) {
+    header{
+        height: 90vh;
+    }
 
     .nav-bar{
         flex-direction: column;
@@ -46,5 +83,17 @@ header{
         flex-direction: column;
         margin-left: 50px;
     }
+    .banner-container{
+        padding: 80px 0px;
+    }
+    .banner-head{
+        font-size: 25px;
+        color: #FF900E;
+    }
+    .banner-img img{
+        height: 30vh;
+    }
+
+
     
 }
