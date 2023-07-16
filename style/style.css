@@ -78,6 +78,8 @@ main{
     margin: auto;
 }
 
+
+
 /* quick-list starts */
 .quick-list{
     display: flex;
@@ -196,9 +198,25 @@ main{
     display: flex;
     justify-content: space-evenly;
     padding: 30px 0;
+    
 }
 
 /* sponsor section ends */
+/* footer section starts */
+footer{
+    width: 70%;
+    margin: auto;
+    background-color: #FFF4E7;
+    height: 35px;
+    border-radius: 8px;
+    color: #424242;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* footer section ends */
 
 /* responsive starts */
 @media screen and (max-width:576px) {
