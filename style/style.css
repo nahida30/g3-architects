@@ -70,9 +70,9 @@ header{
 }
 
 @media screen and (max-width: 576px) {
-   /* header{
-    height: 150vh;
-   } */
+   header{
+    height: 100vh;
+   }
 
     .nav-bar{
         flex-direction: column;
@@ -90,9 +90,9 @@ header{
         font-size: 25px;
         color: #FF900E;
     }
-    /* .banner-img img{
+    .banner-img img{
         height: 50vh;
-    } */
+    }
 
 
     
