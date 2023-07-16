@@ -66,7 +66,7 @@ header{
 }
 .banner-img img{
     width: 100%;
-    height: 50vh;
+    height: 55vh;
 }
 
 @media screen and (max-width: 576px) {
@@ -90,9 +90,9 @@ header{
         font-size: 25px;
         color: #FF900E;
     }
-    .banner-img img{
+    /* .banner-img img{
         height: 50vh;
-    }
+    } */
 
 
     
